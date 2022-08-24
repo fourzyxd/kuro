@@ -43,20 +43,20 @@ handler.all = async function (m) {
 				externalAdReply: { // Bagian ini sesuka kalian berkreasi :'v
                     showAdAttribution: true,
 					title: global.ucapan,
-					body: wm,
-					mediaUrl: sgc,
+					body: Kuroyama.id,
+					mediaUrl: https://instagram.com/yudtya.w,
 					description: 'simple bot esm',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(urls)).buffer(),
-					sourceUrl: "https://github.com/FahriAdison",					
+					sourceUrl: "https://github.com/Fourzylol",					
 				}
 			}
 		}
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Instagram.com/bot_whangsaf",
+            mediaUrl: "https://Instagram.com/yudtya.w",
             mediaType: "VIDEO",
-            description: "https://Instagram.com/bot_whangsaf", 
+            description: "https://Instagram.com/yudtya.w", 
             title: 'Simple Bot Esm',
             body: wm,
             thumbnailUrl: pp,
@@ -65,10 +65,10 @@ handler.all = async function (m) {
     } }
 global.fakefb = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Facebook.com/adison_fahri",
+            mediaUrl: "https://Facebook.com/fourzyXd",
             mediaType: "VIDEO",
-            description: "https://Facebook.com/adison_fahri", 
-            title: 'Simple Bot Esm',
+            description: "https://Facebook.com/fourzyXd", 
+            title: 'Simple Bot',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
@@ -112,7 +112,7 @@ global.fakefb = {
             { fromMe: false,
             participant: `0@s.whatsapp.net`, ...(m.chat  ? 
             { remoteJid: "status@broadcast" } : {}) },
-            message: { "liveLocationMessage": { "caption":"by : Papah-Chan","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
+            message: { "liveLocationMessage": { "caption":"by : FourzyXd","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
            }
                
                   global.fliveLoc2 = {
@@ -120,7 +120,7 @@ global.fakefb = {
             { fromMe: false,
             participant: `0@s.whatsapp.net`, ...(m.chat ? 
             { remoteJid: "status@broadcast" } : {}) },
-            message: { "liveLocationMessage": { "title": "Papah-Chan","h": wm, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
+            message: { "liveLocationMessage": { "title": "FourzyXd","h": wm, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
            }
                
                    global.ftoko = {
@@ -135,7 +135,7 @@ global.fakefb = {
                                "mimetype": "image/jpeg",
                                "jpegThumbnail": fs.readFileSync('./thumbnail.jpg') //Gambarnye
                            },
-                           "title": wm, //Kasih namalu 
+                           "title": "fourzyXd", //Kasih namalu 
                            "description": "Simple Bot Esm", 
                            "currencyCode": "USD",
                            "priceAmount1000": "20000000",
@@ -169,7 +169,7 @@ global.fakefb = {
                "groupInviteMessage": {
                    "groupJid": "17608914335-1625305606@g.us",
                    "inviteCode": "null",
-                   "groupName": "Kawan Papah-Chan", 
+                   "groupName": "Kuroyama.id", 
                    "caption": wm, 
                    'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
                }
